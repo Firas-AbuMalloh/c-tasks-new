@@ -60,6 +60,7 @@ namespace _21_1_2025
             public string Email { get; set; } // Auto property 
             public const int MinAge = 18; // Constant field 
             public const int MaxAge = 40; // Constant field 
+            public const int MaxAge1 = 40; // Constant field 
 
             public void GetDetails() // method to return All Student Details
             {
