@@ -95,9 +95,15 @@ namespace _21_1_2025
 
                 student std2 = new student(1002, 30, "Firas");
                 std2.GetDetails();
+<<<<<<< HEAD
 
                 Console.WriteLine("\n\n\n");
 
+=======
+                
+                Console.WriteLine("\n\n\n");
+                
+>>>>>>> ceeee891802d00ce4925b67ef2ae3c1cdfad4abb
                 student std3 = new student(1003, 17, "Batool");
                 std3.GetDetails();
             }
