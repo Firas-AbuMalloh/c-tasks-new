@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 namespace _21_1_2025
 {
 
+
+
+
     internal class Program //Class 
     {
+
+        
         class student // Class
         {
-            private int Id; //Filds
+            protected int Id; //Filds
             public int _Id // property 
             {
                 get
@@ -64,29 +69,37 @@ namespace _21_1_2025
 
             public void GetDetails() // method to return All Student Details
             {
-                Console.WriteLine("Student ID : {0} \nStudent Name : {1} \nStudent Age : {2}", Id, Name, Age);
+                Console.WriteLine("Student ID : {0} \nStudent Name : {1} \nStudent Age : {2}", _Id, _Name, _Age);
             }
 
             public student(int _id, int _age, string _name) // Constructor with 3 parametars
             {
-                Id = _id;
-                Name = _name;
-                Age = _age;
+                _Id = _id;
+                _Name = _name;
+                _Age = _age;
             }
 
             ~student() // Destructor
             {
                 Console.WriteLine("De-STRUCTOR IS CALLED . . .");
             }
+
+
+            
             static void Main(string[] args)
             {
                 student std = new student(1001, 22, "Ahmad");
                 std.GetDetails();
 
-
+                Console.WriteLine("\n\n\n");
 
                 student std2 = new student(1002, 30, "Firas");
                 std2.GetDetails();
+
+                Console.WriteLine("\n\n\n");
+
+                student std3 = new student(1003, 17, "Batool");
+                std3.GetDetails();
             }
         }
     }
@@ -115,6 +128,3 @@ namespace _21_1_2025
 
 //What is encapsulation
 //encapsulation is a fundamental concept in object-oriented programming
-
-
-
