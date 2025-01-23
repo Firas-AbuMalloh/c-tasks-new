@@ -1,0 +1,7 @@
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\bin\Debug\01_23_2025_Task6.exe.config
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\bin\Debug\01_23_2025_Task6.exe
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\bin\Debug\01_23_2025_Task6.pdb
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\obj\Debug\01_23_2025_Task6.csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\obj\Debug\01_23_2025_Task6.csproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\obj\Debug\01_23_2025_Task6.exe
+C:\Users\Orange\Desktop\c# git\21_1_2025\01_23_2025_Task6\obj\Debug\01_23_2025_Task6.pdb
